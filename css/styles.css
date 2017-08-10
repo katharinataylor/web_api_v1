@@ -1,0 +1,113 @@
+
+* {
+	box-sizing: border-box;
+}
+
+html, 
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+header {
+	height: 250px;
+	width: 100%;
+	background: #ee1515;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+h1 span {
+	color: #fff;
+}
+
+nav {
+	background: #222224;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	width: 30%;
+	margin-left: 35%;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -100px;
+}
+
+footer, 
+.push {
+	height: 100px;
+}
+
+main {
+	margin-top: 300px;
+}
+
+main p {
+	font-size: 4rem;
+}
+
+.gallery-wrap {
+	width: 90%;
+	margin-left: 5%;
+	background: #f0f0f0;
+}
+
+#gallery ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#gallery li {
+	list-style: none;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 25px;
+}
+
+#gallery li:hover {
+	border: 1px solid #888;
+	border-radius: 3px;
+}
+
+footer {
+	background: #222224;
+	color: #fff;
+}
+
+footer p {
+	padding-top: 40px;
+}
